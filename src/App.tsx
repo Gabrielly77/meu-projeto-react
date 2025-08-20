@@ -4,11 +4,11 @@ import Profile from './components/Profile'
 import Skills from './components/Skills'
 
 function App() {
-    const skill = ['Python', 'ts', 'Cloud']
+    const skill = ['Python', 'TS', 'Cloud']
         return(
             <>
             <Header/>
-            <Profile name={'Gabrielly'} bios={'Dev Full stack'} location={'Minas'}/>
+            <Profile name={'Gabrielly'} bios={'Dev Fullstack'} location={'Minas Gerais'}/>
             <Skills skills={skill}/>
             </>
         ) 
